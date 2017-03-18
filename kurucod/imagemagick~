@@ -1,0 +1,27 @@
+Adicionar taxas de brilho na imagem
+
+convert parateste1.jpg -level 25%,75% test_lvl.jpg
+
+Forçar a imagem cortar em uma resolução 
+
+convert 3.png -resize 722x481! -quality 100 batatafritapequena3.png
+
+Corta a imagem através do width e do height
+
+convert 3.1.jpeg -crop +20+100 teste2.jpeg
+
+Nunca amplie a imagem - nunca redimencionar a imagem maior que o tamanho dado
+
+convert Pizza25nex2.jpeg -resize 722x481\> teste8.jpeg
+
+
+
+
+Referências:
+
+https://tadeubento.com/2016/bash-imagemagick-cortar-imagens/
+http://www.imagemagick.org/Usage/color_mods/
+http://www.imagemagick.org/Usage/resize/
+http://www.imagemagick.org/Usage/files/#read_mods
+
+
